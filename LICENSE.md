@@ -1,7 +1,7 @@
 # Licence d'Utilisation - Blueprint Design Portfolio
 
 ## Droit d'Auteur
-Ce template, "Blueprint Design Portfolio", est une œuvre protégée par le droit d'auteur, propriété de [Votre Nom ou Nom de votre Studio].
+Ce template, "Blueprint Design Portfolio", est une œuvre protégée par le droit d'auteur, propriété de René DJILAN.
 
 ## Conditions d'Utilisation
 

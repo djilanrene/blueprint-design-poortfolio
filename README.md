@@ -2,16 +2,16 @@
 
 [![Licence](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE.md)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-8892BF.svg)](https://www.php.net/)
-[![Statut du Déploiement](https://github.com/VOTRE_NOM_UTILISATEUR/VOTRE_DEPOT/actions/workflows/deploy.yml/badge.svg)](https://github.com/VOTRE_NOM_UTILISATEUR/VOTRE_DEPOT/actions)
+[![Statut du Déploiement](https://github.com/djilanrene/blueprint-design-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/djilanrene/blueprint-design-portfolio/actions)
 
 Un template de portfolio moderne, minimaliste et ultra-performant pour les designers, développeurs et créatifs. Entièrement piloté par un backoffice simple (CMS sans base de données) et basé sur une architecture PHP modulaire.
 
 Ce dépôt contient le **code source du site public (Front-end)**. Le backoffice est volontairement exclu pour la sécurité de la démo en ligne.
 
-➡️ **Voir la démo en direct :** [Lien vers votre site de démo](https://votre-demo.com)
-➡️ **Acheter le template complet :** [Lien vers votre boutique Blueprint Cloud](https://votre-boutique.chariow.com)
+➡️ **Voir la démo en direct :** [Lien vers votre site de démo](https://designerportfolio-blueprint.liveblog365.com/)
+➡️ **Acheter le template complet :** [Lien vers votre boutique Blueprint Cloud](https://blueprint.mychariow.shop)
 
-![Aperçu du Portfolio](https://votre-lien-vers-un-screenshot.com/apercu.jpg)
+![Aperçu du Portfolio](/LAYOUT.png)
 
 ## ✨ Philosophie du Projet
 
@@ -45,8 +45,8 @@ Ce guide est pour les développeurs souhaitant contribuer. Pour les clients, veu
 1.  **Pré-requis :** Avoir un serveur local (WAMP, XAMPP, Laragon) avec PHP activé.
 2.  **Cloner le dépôt :**
     ```bash
-    git clone https://github.com/VOTRE_NOM_UTILISATEUR/VOTRE_DEPOT.git
-    cd VOTRE_DEPOT
+    git clone https://github.com/djilanrene/blueprint-design-portfolio
+    cd blueprint-design-portfolio
     ```
 3.  **Lancer le serveur :**
     ```bash

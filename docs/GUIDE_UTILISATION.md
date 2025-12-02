@@ -55,7 +55,7 @@ Et voilà ! Votre site est en ligne et fonctionnel.
 
 Pour modifier les textes, les images et les projets, vous devez vous connecter à l'interface d'administration (le "Cockpit").
 
-1.  Accédez à `www.votresite.com/admin.php`.
+1.  Accédez à `https://designerportfolio-blueprint.liveblog365.com/admin.php`.
 2.  Entrez le mot de passe que vous avez choisi lors de l'installation.
 
 Vous aurez accès à plusieurs onglets :
