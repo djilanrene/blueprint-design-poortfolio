@@ -1,8 +1,14 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     
-    # Si la requête ne pointe pas déjà vers le dossier public
+    # Si ce n'est pas un fichier réel
+    RewriteCond %{REQUEST_FILENAME} !-f
+    # Et ce n'est pas un dossier réel
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Et ce n'est pas déjà le dossier public
     RewriteCond %{REQUEST_URI} !^/public/
+    # Et ce n'est pas install.php
+    RewriteCond %{REQUEST_URI} !^/install\.php$
     
     # Alors on redirige tout vers le dossier public
     RewriteRule ^(.*)$ public/$1 [L,QSA]

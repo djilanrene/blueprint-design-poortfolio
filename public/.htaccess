@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Si la requête ne pointe pas vers un fichier ou dossier réel
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # Et si ce n'est pas install.php
+    RewriteCond %{REQUEST_URI} !install.php
+    
+    # Alors on redirige tout vers index.php
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
