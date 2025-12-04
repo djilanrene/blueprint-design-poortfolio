@@ -2,18 +2,18 @@
     "config": {
         "email_admin": "hello@alexdesign.tg",
         "currency": "FCFA",
-        "logo_initial": "J.",
-        "logo_text": "Junior",
-        "cta_nav": "Repo Github",
+        "logo_initial": "d.",
+        "logo_text": "draft",
+        "cta_nav": "Personnaliser maintenant",
         "cta_nav_link": "projects.php",
         "status_text": "Dispo",
         "footer_copyright": "© 2025 Junior DJILAN.",
         "footer_location": "Lomé, Togo."
     },
     "meta": {
-        "title": "Alex | Designer Graphique & UI à Lomé",
-        "description": "Portfolio créatif spécialisé en Identité Visuelle, UI\/UX Design et Création Web. Basé au Togo.",
-        "og_image": "assets\/images\/og-share.jpg"
+        "title": "Junior – Designer UI\/UX | Interfaces modernes et identités visuelles",
+        "description": "Portfolio de Junior, designer graphique et UI\/UX. Découvrez des interfaces modernes et intuitives.",
+        "og_image": "public\\assets\\images\\LAYOUT.png"
     },
     "nav": [
         {
@@ -35,45 +35,46 @@
     ],
     "hero": {
         "greeting": "Hello, je suis Junior",
-        "headline": "Je transforme vos idées en expériences visuelles mémorables.",
-        "subtitle": "Designer Graphique & UI spécialisé dans la création d'interfaces modernes et d'identités de marque fortes.",
+        "headline": "Transformez vos idées en expériences visuelles mémorables.",
+        "subtitle": "Une approche structurée, orientée vers la clarté, l’efficacité et la cohérence visuelle.",
         "cta_text": "Voir mes projets",
         "cta_link": "projects.php"
     },
     "about": {
-        "title": "Au-delà de l'esthétique,<br>je conçois de la valeur.",
-        "text": "Basé à Lomé, je suis obsédé par le détail. Je ne me contente pas de rendre les choses 'jolies'. Je conçois des systèmes visuels qui résolvent de vrais problèmes business.",
+        "title": "Des interfaces qui apportent valeur et clarté.",
+        "text": "Chaque interface est pensée pour être utile, lisible et efficace, afin de faciliter votre expérience.",
         "stats": [
             {
                 "label": "Années d'expérience",
-                "value": "04+"
+                "value": "01+"
             },
             {
                 "label": "Projets livrés",
-                "value": "30+"
+                "value": "03+"
             },
             {
                 "label": "Clients satisfaits",
-                "value": "100%"
+                "value": "03+"
             }
         ]
     },
     "about_page": {
         "title": "Mon Parcours",
-        "headline": "Designer par passion, Stratège par expérience.",
+        "headline": "Du code au design",
         "story": [
-            "Tout a commencé il y a 4 ans dans une petite chambre d'étudiant à Lomé. Fasciné par la manière dont le design peut influencer les décisions d'achat, j'ai troqué mes manuels scolaires contre des tutoriels intensifs. Ce qui n'était qu'un hobby est vite devenu une obsession.",
-            "Aujourd'hui, je ne me contente pas de faire du 'beau'. Je travaille avec des entreprises togolaises et internationales pour construire des identités qui durent. Mon approche est simple : éliminer le superflu pour ne garder que l'essentiel, car la clarté est la clé de la conversion.",
-            "Quand je ne suis pas derrière mon écran à ajuster des pixels sur Figma, je suis probablement en train de chercher le meilleur café de la ville ou d'analyser les affiches publicitaires dans la rue pour comprendre ce qui capte l'attention des gens ici."
+            "Tout a commencé dès la seconde, derrière un écran, fasciné par le code et la logique derrière les programmes. Le développement m’a appris à créer, expérimenter et résoudre des problèmes, mais c’est ma formation en Publicité et Arts Graphiques à l’ISICA qui a ouvert la porte au design. Curieux de voir comment le design pouvait transformer une idée en expérience, j’ai combiné Figma, tutoriels intensifs et lignes de code pour aller plus loin.",
+            "Aujourd’hui, je conçois des interfaces et des identités visuelles pour des projets locaux, alliant design et développement pour garantir clarté, efficacité et fluidité. Chaque détail compte : l’essentiel prime pour que l’expérience utilisateur soit mémorable.",
+            "Quand je ne peaufine pas des interfaces ou n’écris pas de lignes de code, je traque l’inspiration partout : dans la ville, dans la publicité, dans la culture autour de moi. Tout ce que je fais vise à comprendre ce qui capte l’attention et à transformer cette compréhension en expériences numériques impactantes."
         ],
         "image": "https:\/\/images.unsplash.com\/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop",
         "skills": [
             "UI\/UX Design",
-            "Figma Expert",
-            "Adobe Creative Suite",
-            "Stratégie de Marque",
-            "Webflow \/ HTML \/ CSS",
-            "Motion Design"
+            "Wordpress",
+            "Figma",
+            "ReactJS",
+            "NextJS",
+            "Git",
+            "PHP"
         ]
     },
     "projects": [
@@ -685,18 +686,18 @@
         "whatsapp_link": "https:\/\/wa.me\/0022897555254",
         "socials": [
             {
+                "name": "GitHub",
+                "url": "https:\/\/github.com\/djilanrene"
+            },
+            {
                 "name": "LinkedIn",
-                "url": "#"
+                "url": "https:\/\/www.linkedin.com\/in\/djilanrene\/"
             },
             {
                 "name": "Behance",
-                "url": "#"
-            },
-            {
-                "name": "Instagram",
-                "url": "#"
+                "url": "https:\/\/www.behance.net\/djilanrene"
             }
         ],
-        "cta_title": "On démarre un projet ?"
+        "cta_title": "Vous avez un projet ?"
     }
 }

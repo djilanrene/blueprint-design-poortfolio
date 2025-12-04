@@ -16,7 +16,7 @@
                     <span style="width: 6px; height: 6px; background: #4ade80; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #4ade80;"></span>
                     <?= e($data['config']['status_text'] ?? 'Dispo') ?>
                 </div>
-                <a href="<?= e($data['config']['cta_nav_link'] ?? 'projects.php') ?>" class="btn-primary"><?= e($data['config']['cta_nav'] ?? 'Projet ?') ?></a>
+                <a href="<?= e($data['config']['cta_nav_link'] ?? 'projects.php') ?>" class="btn-primary"><?= e($data['config']['cta_nav_label'] ?? 'Personnaliser maintenant') ?></a>
             </div>
             <button id="menu-toggle" class="mobile-toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
         </div>

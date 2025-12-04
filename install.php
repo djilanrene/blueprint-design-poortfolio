@@ -16,12 +16,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Le contenu du futur fichier de configuration
         $config_content = "<?php
 // Fichier de configuration généré automatiquement
-define('ADMIN_PASSWORD', '" . addslashes($password) . "');
+define('ADMIN_PASSWORD', '" . password_hash($password, PASSWORD_DEFAULT) . "');
 define('ACCENT_COLOR', '" . htmlspecialchars($color) . "');
 ?>";
 
         // On écrit le fichier
-        if (file_put_contents('config-site.php', $config_content)) {
+        if (file_put_contents(__DIR__ . '/config-site.php', $config_content)) {
             // Installation réussie, on redirige vers l'accueil
             header('Location: index.php');
             exit;

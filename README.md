@@ -11,7 +11,7 @@ Ce dépôt contient le **code source du site public (Front-end)**. Le backoffice
 ➡️ **Voir la démo en direct :** [Lien vers votre site de démo](https://designerportfolio-blueprint.liveblog365.com/)
 ➡️ **Acheter le template complet :** [Lien vers votre boutique Blueprint Cloud](https://blueprint.mychariow.shop)
 
-![Aperçu du Portfolio](/LAYOUT.png)
+![Aperçu du Portfolio](public\assets\images\LAYOUT.png)
 
 ## ✨ Philosophie du Projet
 
